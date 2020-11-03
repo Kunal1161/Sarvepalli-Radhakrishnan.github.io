@@ -1,0 +1,51 @@
+body{
+  background-color: #00CFCF;
+}
+
+h1 {
+  text-align: center;
+  background-color: white;
+  border: 5px double lightblue;
+
+}
+
+p {
+  font-style: italic;
+  font-size: 20px;
+  color: White;
+}
+
+a {
+  color: White;
+}
+
+img{
+  border: 10px double mintcream;
+  text-align: center;
+}
+
+div.box{
+  text-align: center;
+}
+
+ol {
+  color: White;
+  font-size: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
